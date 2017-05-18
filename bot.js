@@ -6,7 +6,7 @@ var T = new Twit(config);
 
 var request = require("request");
 
-setInterval(getajoke, 3600000*5);
+setInterval(getajoke, 3600000);
 
 //getajoke();
 getImage();
