@@ -6,8 +6,8 @@ var T = new Twit(config);
 
 var request = require("request");
 
-setInterval(getajoke, 3600000);
-
+setInterval(getajoke, 3609000);
+setInterval(getImage, 3600000*5);
 //getajoke();
 getImage();
 
@@ -50,7 +50,6 @@ function getImage() {
 
                         } else {
                             console.log("sucess!");
-                            getajoke();
                         }
                     });
                 });
